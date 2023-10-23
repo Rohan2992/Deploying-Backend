@@ -77,3 +77,27 @@
 ## Part-3
 
 - Using the github workflows to automate the updation
+
+## Pointing Domain to the Server.
+
+- Purchase Domain from Google Domain or from Name Cheap.
+- Ping Command to find the ip of the website
+- Dns Checker - to check the propagation
+- Don't run on port 80 , as node is not able to access the port 80 it is used by https by default.. hacky way -> run sudo node.
+- htop command gives CPU usage
+
+## Reverse Proxy
+
+- A reverse proxy is a server that sits in front of web servers and forwards client (e.g. web browser) requests to those web servers
+
+- Nginx captures all the requests on port 80 and redirects them to the correct server.
+
+- Install nginx - sudo apt-get install nginx
+- sudo vi/etc/nginx/nginx.conf
+
+- vi/etc/hosts - to point a particular ip to an address on a machine.
+
+## Generating Certificates
+
+- Using CertBot
+- Using GoDaddy
